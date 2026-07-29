@@ -1,7 +1,7 @@
 # softrast
 
-CPU software rasterizer in C++, no GPU API. Edge-function triangle rasterization
-with barycentric interpolation and per-stage counters.
+CPU software rasterizer in C++, no GPU API. Edge-function triangle
+rasterization with barycentric interpolation and per-stage counters.
 
 Build: `cl /EHsc /O2 /std:c++17 main.cpp`
 
