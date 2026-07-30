@@ -11,6 +11,9 @@ front at the top and bottom of the frame and behind in the middle; the seam down
 centre is where the two wedges have equal depth. Nothing in the code sorts geometry or
 computes a plane intersection — both fall out of one depth comparison per pixel.
 
+## Build
+
+
 cl /EHsc /O2 /std:c++17 main.cpp     # MSVC
 g++ -O2 -std=c++17 -o raster main.cpp
 ```
